@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background: #dfdfdf;
+}
+
+.wrapper{
+  display: flex;
+  max-width: 560px;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .left,
+.wrapper .right{
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+.wrapper .left{
+  background: #494f57;
+}
+
+.wrapper .left h3{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.wrapper .left img{
+  display: block;
+  width: 220px;
+  margin: 25px auto 0;
+}
+
+.wrapper .right{
+  background: #fff;
+}
+
+.wrapper .right .tabs ul{
+  text-align: center;
+}
+
+.wrapper .right .tabs ul li{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #494f57;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.wrapper .right .tabs ul li.active{
+  border-bottom: 2px solid #494f57;
+}
+
+.wrapper .right .register,
+.wrapper .right .login{
+  margin-top: 20px;
+}
+
+.wrapper .right .input_field{
+  margin-bottom: 15px;
+}
+
+.wrapper .right .input_field .input{
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 12px;
+  background: #ecebeb;
+}
+
+.wrapper .right .btn{
+  margin-top: 20px;
+  background: #494f57;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.wrapper .right .btn a{
+  color: #fff;
+  display: block;
+  font-size: 14px;
+}
